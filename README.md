@@ -2,791 +2,515 @@
 
 ## Income changes. Your financial future doesn't.
 
-**DhanSanchayan** is an adaptive financial-planning platform designed for people whose income does not arrive in predictable monthly amounts.
-
-Instead of forcing freelancers, gig workers, commission-based workers, farmers, daily-wage workers, consultants and small-business owners into fixed-income financial products, DhanSanchayan builds a financial plan that **adapts to their actual cash flow**.
-
-### Core idea
-
-> **Income changes. Goals don't. DhanSanchayan changes the route — not the destination.**
-
 🌐 **Live Prototype:** https://dhansanchayan.advikaverma01.workers.dev/
 
 ---
 
-# 🧩 The Challenge
+## 🎯 THE PROBLEM
 
-### Designing for Income Volatility
+Most financial products are designed around one assumption:
 
-Most financial products assume a steady monthly paycheck.
+> **Income arrives predictably every month.**
 
-But irregular-income earners may experience:
+But millions of people don't have a fixed paycheck.
 
-```text
-₹45,000 → ₹90,000 → ₹30,000 → ₹65,000 → ₹1,10,000 → ₹50,000
-```
+Gig workers, freelancers, farmers, commission-based workers, consultants, daily-wage workers and small-business owners may experience income such as:
 
-while their financial responsibilities remain relatively stable:
+**₹45K → ₹90K → ₹30K → ₹65K → ₹1.1L → ₹50K**
 
-* Rent
-* Food
-* Household expenses
-* Insurance
-* Loan obligations
-* Children's education
-* Marriage planning
-* Retirement
-* Emergency needs
+Their income changes.
 
-A fixed monthly contribution can therefore become uncomfortable or unsustainable during weak-income months.
+Their essential expenses, family responsibilities, insurance needs and long-term goals don't.
 
-### The fundamental problem
+This creates a fundamental mismatch between **how people earn** and **how financial products expect them to save, invest or repay.**
+
+### The question DhanSanchayan asks
 
 Traditional financial planning asks:
 
-> **“How much can you invest every month?”**
+> *"How much can you invest every month?"*
 
 DhanSanchayan asks:
 
-> **“Given what you earned and spent this month, what can you safely do with your money while still progressing toward your goals?”**
+> **"Given what you earned and spent this month, what can you safely do while still progressing toward your future?"**
 
 ---
 
-# 💡 Our Solution
+# 💡 THE SOLUTION
 
-DhanSanchayan works as a **Financial Operating System for irregular-income households**.
+## DhanSanchayan — Adaptive Financial Planning for Irregular Income
 
-It follows four stages:
+DhanSanchayan is a **goal-based, volatility-aware financial planning platform** built for people whose income does not arrive in predictable monthly amounts.
 
-```text
-UNDERSTAND
-     ↓
-PROTECT
-     ↓
-PLAN
-     ↓
-ADAPT
-```
+Instead of forcing irregular earners into fixed monthly commitments, DhanSanchayan:
 
-### Understand
+**UNDERSTANDS → PROTECTS → PLANS → ADAPTS**
 
-Analyse income and expenses to understand the user's financial behaviour.
+### 🧠 UNDERSTAND
 
-### Protect
+Analyse income and expenses to understand the user's real financial behaviour.
+
+### 🛡️ PROTECT
 
 Establish a financial floor, emergency reserve and protection priorities.
 
-### Plan
+### 🎯 PLAN
 
-Translate life goals into financial targets, timelines and appropriate allocation buckets.
+Convert real-life goals into measurable financial targets.
 
-### Adapt
+### ⚡ ADAPT
 
-Change the monthly contribution according to actual income without abandoning the long-term plan.
+Adjust the recommended monthly contribution according to actual income.
 
----
-
-# 🧠 What Makes DhanSanchayan Different?
-
-DhanSanchayan does **not** start by asking:
-
-> “Which financial product should you buy?”
-
-It starts with:
-
-> “What is happening in your financial life?”
-
-The platform first understands:
-
-* Income behaviour
-* Expense behaviour
-* Income volatility
-* Essential spending requirements
-* Dependents
-* Liabilities
-* Existing protection
-* Existing savings
-* Future goals
-
-Only then does it build a financial plan.
-
-The product therefore moves from:
-
-**Product-first financial planning**
-
-to:
-
-**Life-first financial planning.**
+> **The income changes. The contribution changes. The goal doesn't.**
 
 ---
 
-# 📊 1. Income Intelligence
+# 🚀 KEY FEATURES
 
-DhanSanchayan can analyse up to **24 months of income and expense history**.
+## 1. 📊 Income Intelligence
 
-The financial engine considers:
+DhanSanchayan analyses historical income instead of assuming a fixed salary.
 
-* Average income
-* Median income
-* Lowest-income months
-* Highest-income months
-* Income range
-* Income volatility
-* Essential expense floor
-* Sustainable planning income
-* Safe financial capacity
-* Income Stability Score
+The system identifies:
 
-The underlying product concept specifically avoids using average income as the sole planning number.
+- Average income
+- Median income
+- Highest income
+- Lowest income
+- Income range
+- Income volatility
+- Sustainable planning income
+- Essential expense floor
+- Safe financial capacity
+- Income Stability Score
+
+The purpose is not simply to calculate an average.
+
+It is to understand **how predictable the user's income actually is.**
 
 ---
 
-## Example
+# 2. 📉 Income Volatility Analysis
 
-Illustrative six-month history:
+An irregular earner can have dramatically different months.
 
-| Month |  Income | Expenses | Surplus |
-| ----- | ------: | -------: | ------: |
-| 1     | ₹75,000 |  ₹42,000 | ₹33,000 |
-| 2     | ₹90,000 |  ₹44,000 | ₹46,000 |
-| 3     | ₹45,000 |  ₹39,000 |  ₹6,000 |
-| 4     | ₹60,000 |  ₹41,000 | ₹19,000 |
-| 5     | ₹80,000 |  ₹43,000 | ₹37,000 |
-| 6     | ₹55,000 |  ₹40,000 | ₹15,000 |
+Example:
 
-Illustrative averages:
+| Month | Income |
+|---|---:|
+| January | ₹50,000 |
+| February | ₹2,00,000 |
+| March | ₹10,000 |
+| April | ₹75,000 |
+| May | ₹40,000 |
+| June | ₹1,20,000 |
 
-```text
-Average monthly income     ₹67,500
-Average monthly expenses   ₹41,500
-Average surplus            ₹26,000
-```
+DhanSanchayan turns this history into an understandable picture of:
 
-But DhanSanchayan does **not** simply conclude:
+- Income volatility
+- Stable earning capacity
+- Weak-income periods
+- Strong-income periods
+- Planning capacity
 
-> “Invest ₹26,000 every month.”
+### Income Stability Score
 
-Instead, it establishes a safer planning baseline.
+The prototype can translate volatility into a simple planning indicator.
+
+Example:
+
+**72 / 100 — Moderately Stable**
+
+This is **not a credit score**.
+
+It is a financial-planning indicator used to influence liquidity and contribution recommendations.
+
+---
+
+# 3. 🧱 FINANCIAL FLOOR
+
+Before deciding how much can be invested, DhanSanchayan determines what must be protected.
 
 Example:
 
 ```text
-Sustainable planning income    ~₹60,000
-Essential expense floor        ~₹35,000
-Safe financial capacity        ~₹25,000
-```
+Average Monthly Income
+₹67,500
+       ↓
+Sustainable Planning Income
+~₹60,000
+       ↓
+Essential Expense Floor
+~₹35,000
+       ↓
+Safe Financial Capacity
+~₹25,000This prevents users from treating their best income months as their permanent financial capacity.
 
-These figures are illustrative and demonstrate the product methodology.
+Know what must be protected before deciding what can be invested.
 
----
-
-# 📉 2. Income Volatility & Stability
-
-DhanSanchayan converts historical income behaviour into an **Income Stability Score**.
-
-Example:
-
-### Income Stability
-
-**72 / 100**
-
-> Moderately volatile income → maintain a stronger liquidity buffer.
-
-The score is **not a credit score**.
-
-It is a planning indicator used to influence:
-
-* Emergency reserve
-* Contribution flexibility
-* Financial commitments
-* Goal allocation
-
----
-
-# 🧱 3. Financial Floor
-
-One of the most important concepts in DhanSanchayan is the **financial floor**.
-
-The financial floor represents the minimum amount needed to keep essential household finances functioning.
-
-Example:
-
-```text
-Sustainable planning income
-        ₹60,000
-
-             ↓
-
-Essential expense floor
-        ₹35,000
-
-             ↓
-
-Safe financial capacity
-        ₹25,000
-```
-
-This prevents a strong income month from creating a permanently high financial commitment.
-
----
-
-# 🛟 4. Emergency Fund Engine
+4. 🛟 EMERGENCY FUND ENGINE
 
 Irregular income creates additional liquidity risk.
 
-DhanSanchayan therefore considers:
+DhanSanchayan considers:
 
-* Essential monthly expenses
-* Income volatility
-* Dependents
-* Existing emergency savings
-* Household obligations
+Essential monthly expenses
+Income volatility
+Dependents
+Existing savings
+Household obligations
+
+and produces an illustrative emergency-fund requirement.
 
 Example:
 
-```text
-Emergency fund target
+Emergency Fund Target
 ₹2.5L – ₹3L
 
-Current reserve
+Current Reserve
 ₹1.65L
-```
 
-The user can immediately see the gap and the reason behind it.
+Gap
+₹85K – ₹1.35L
 
-### Principle
+The objective is to create a buffer that can absorb weaker-income periods.
 
-> **Before aggressive long-term investing, make sure the household can survive a weak-income period.**
+5. 🛡️ PROTECTION FIRST
 
----
+DhanSanchayan doesn't begin with investments.
 
-# 🛡️ 5. Protection Before Investment
+It first considers financial protection.
 
-DhanSanchayan treats financial protection as part of the financial plan rather than an optional add-on.
+❤️ Health Protection
 
-The protection layer evaluates:
+Identify potential health-insurance requirements and gaps.
 
-### Health Protection
+👨‍👩‍👧 Life Protection
 
-Potential health-insurance gap.
+Consider factors such as:
 
-### Life Protection
+Dependents
+Liabilities
+Education obligations
+Income replacement needs
+Household responsibilities
+🛟 Emergency Protection
 
-Illustrative protection requirement based on factors such as:
+Build sufficient liquidity before aggressive long-term allocation.
 
-* Dependents
-* Liabilities
-* Education obligations
-* Income-replacement needs
-* Household circumstances
+Protect the household first. Build wealth second.
 
-### Emergency Protection
+6. 🇮🇳 GOVERNMENT SCHEME ACCESS
 
-Liquidity reserve appropriate to the user's volatility.
+Financially vulnerable users may not always need another private financial product.
 
-The original product design places protection ahead of aggressive goal investing.
+They may already have access to relevant government-backed schemes.
 
----
+DhanSanchayan therefore includes a Government Access layer to help users discover potentially relevant schemes.
 
-# 🇮🇳 6. DhanSanchayan Access
+Examples represented in the prototype include:
 
-## Public-support discovery layer
+PMJJBY
+PMSBY
+PM-SYM
+PMJDY
+Ayushman Bharat / PM-JAY
+Atal Pension Yojana
 
-A major part of the solution is helping users discover **potentially relevant government-backed financial and social-protection schemes** before assuming they need to purchase everything privately.
+Users can explore:
 
-The prototype can surface categories such as:
-
-* Life protection
-* Health protection
-* Pension
-* Banking access
-* Social security
-
-Example schemes represented in the prototype include:
-
-* PMJJBY
-* PMSBY
-* PM-SYM
-* PMJDY
-* Ayushman Bharat / PM-JAY
-* Atal Pension Yojana
-
-Each scheme can contain:
-
-```text
-Scheme name
-Category
+Scheme category
 Target segment
-Age criteria
-Income criteria
-Eligibility summary
-Benefit summary
+Eligibility information
+Benefits
 Contribution / premium information
 Official source
-Last verified date
-```
+Responsible eligibility design
 
-### Important design principle
+DhanSanchayan does not say:
 
-DhanSanchayan does **not** claim:
-
-> “You are definitely eligible.”
+❌ "You are definitely eligible."
 
 Instead:
 
-> **“You may be eligible based on the information provided. Verify eligibility on the official portal.”**
+✅ "You may be eligible based on the information provided. Verify eligibility on the official portal."
 
-This keeps government information separate from the product's own financial calculations.
+This keeps the platform useful without pretending to make official eligibility decisions.
 
----
+7. 🎯 GOAL-BASED PLANNING
 
-# 🔎 Government Scheme Discovery
+Financial planning becomes meaningful when it is connected to real life.
 
-Users can filter schemes by:
+Users can create goals such as:
 
-* Category
-* Occupation
-* Income
-* Age
-* Target segment
+🎓 Child Education
+💍 Marriage
+🧓 Retirement
+🏠 Home
+🚗 Vehicle
+🛟 Emergency Reserve
+✨ Custom Goals
 
-Each result provides:
+Each goal can contain:
 
-### Why this appeared
-
-For example:
-
-```text
-You selected:
-
-✓ Irregular-income worker
-✓ Relevant age range
-✓ Reported income within the applicable range
-
-This scheme may be relevant to you.
-```
-
-The prototype is designed to direct users toward **official sources**, rather than presenting third-party information as authoritative.
-
----
-
-# 🎯 7. Goal-Based Planning
-
-Financial planning begins with the user's actual life goals.
-
-DhanSanchayan supports:
-
-* Child education
-* Marriage
-* Retirement
-* Home
-* Vehicle
-* Emergency reserve
-* Custom goals
-
-Users can define:
-
-```text
-Goal name
 Target amount
 Target date
 Current savings
 Priority
-```
-
----
-
-## Example
-
-| Goal            | Target |  Horizon | Planning approach                 |
-| --------------- | -----: | -------: | --------------------------------- |
-| Vehicle         |   ₹10L |  5 years | Conservative / balanced           |
-| Child education |   ₹20L |  8 years | Moderate                          |
-| Child marriage  |   ₹30L | 15 years | Growth-oriented                   |
-| Retirement      |   ₹3Cr | 25 years | Higher growth initially → de-risk |
-
-The original concept specifically maps goals to their time horizon and progressively de-risks longer-term goals as they approach their target date.
-
----
-
-# 🧮 8. Goal Engine
-
-For every goal, DhanSanchayan can calculate:
-
-* Years remaining
-* Target amount
-* Current corpus
-* Funding gap
-* Required contribution
-* Priority
-* Appropriate allocation bucket
-* De-risking timeline
-
-The system should explain **why** a recommendation exists.
-
-Example:
-
-> “Your vehicle goal is four years away. Because the goal is relatively near-term, DhanSanchayan prioritises liquidity and lower-volatility categories rather than relying on aggressive long-term growth exposure.”
-
----
-
-# 📌 9. Goal Prioritisation
+Funding gap
+Recommended contribution
+8. 🧠 GOAL PRIORITISATION
 
 Not every goal has the same urgency.
 
 DhanSanchayan considers:
 
-* User-selected importance
-* Time remaining
-* Funding gap
-* Financial importance
-* Contribution feasibility
-* Protection status
+Time horizon
+Funding gap
+User-defined priority
+Financial capacity
+Protection status
 
-This produces a transparent priority structure:
+Example:
 
-```text
-HIGH PRIORITY
+🔴 HIGH PRIORITY
 Child Education
 
-MEDIUM PRIORITY
+🟡 MEDIUM PRIORITY
 Retirement
 
-LOWER PRIORITY
+🟢 LOWER PRIORITY
 Vehicle
-```
 
-Users can manually change priorities, and the plan adapts.
+This ensures the user's available surplus is directed toward the goals that matter most.
 
----
+9. 📈 TIME-HORIZON BASED ALLOCATION
 
-# 📈 10. Allocation Intelligence
+Different goals require different planning approaches.
 
-DhanSanchayan does **not** attempt to pick a universally “best” investment.
+Short-Term Goals
 
-Instead, it maps goals to broad planning categories based on:
+Prioritise:
 
-* Time horizon
-* Liquidity needs
-* Risk tolerance
-* Goal importance
+Liquidity
+Capital preservation
+Lower volatility
+Medium-Term Goals
 
-Illustrative framework:
+Use a more balanced approach.
 
-```text
-0–3 years
-Liquidity / capital-preservation oriented
+Long-Term Goals
 
-3–7 years
-Conservative / balanced
+Can initially use greater growth exposure and progressively reduce risk as the goal approaches.
 
-7–15 years
-Moderate growth
+Conceptually:
 
-15+ years
-Growth-oriented initially
-+
+LONG HORIZON
+     ↓
+Higher growth exposure
+     ↓
+Time passes
+     ↓
 Progressive de-risking
-```
+     ↓
+Goal approaches
+     ↓
+Lower-risk allocation
 
-The core intellectual property is therefore the **allocation and planning engine**, rather than a list of financial products.
+The purpose is to avoid taking unnecessary risk close to the date when money is needed.
 
----
+10. ⚡ CORE INNOVATION — ADAPTIVE CONTRIBUTIONS
 
-# ⚡ 11. The Core Innovation — Adaptive Contributions
+This is the central innovation of DhanSanchayan.
 
-This is the heart of DhanSanchayan.
+Traditional financial planning often looks like:
 
-Traditional financial planning often assumes:
-
-```text
-₹25K
-₹25K
-₹25K
-₹25K
-₹25K
-```
+₹25K → ₹25K → ₹25K → ₹25K → ₹25K
 
 every month.
 
-DhanSanchayan creates a flexible contribution range.
+But irregular income can look like:
 
-Example:
+₹10K → ₹25K → ₹7K → ₹18K → ₹30K
 
-```text
-Low month
-₹7K–₹10K
+DhanSanchayan allows the contribution to adapt.
+
+Low-income month
+
+Lower contribution.
 
 Normal month
-~₹15K–₹18K
 
-Good month
-~₹25K
+Baseline contribution.
 
 High-income month
-~₹30K
-```
 
-The original product concept calls this a **variable-SIP model**: the long-term plan stays constant while the monthly contribution flexes with cash flow.
+Additional surplus can accelerate priority goals.
 
----
+The contribution changes with the cash flow — not the long-term destination.
 
-# 💰 12. Monthly Money Plan
+11. 💰 MONTHLY MONEY PLAN
 
-The signature screen answers:
+DhanSanchayan answers the most practical question:
 
-# “What should I do with this month's money?”
+"What should I do with this month's income?"
 
-Suppose the user receives:
+Suppose a user earns:
 
-## ₹82,000
+₹82,000
 
-DhanSanchayan may illustrate:
+An illustrative plan could look like:
 
-| Allocation                     |      Amount |
-| ------------------------------ | ----------: |
-| Living expenses                |     ₹41,500 |
-| Insurance / annual obligations |      ₹2,500 |
-| Minimum goal investment        |     ₹10,000 |
-| Additional goal investment     |     ₹15,000 |
-| Emergency fund                 |      ₹5,000 |
-| Buffer / discretionary         |      ₹8,000 |
-| **Total**                      | **₹82,000** |
-
-The allocation adapts without permanently increasing the user's fixed obligations.
-
----
-
-# 📉 13. Low-Income Month
+Category	Amount
+Essential expenses	₹41,500
+Insurance / obligations	₹2,500
+Minimum goal contribution	₹10,000
+Additional priority contribution	₹15,000
+Emergency reserve	₹5,000
+Flexible buffer	₹8,000
+Total	₹82,000
 
 Now suppose income falls to:
 
-## ₹45,000
+₹45,000
 
-DhanSanchayan recalculates.
+The system recalculates.
 
-Illustrative plan:
+It protects:
 
-| Allocation               |      Amount |
-| ------------------------ | ----------: |
-| Essential spending floor |     ₹35,000 |
-| Insurance / obligations  |      ₹2,000 |
-| Minimum goal investment  |      ₹7,000 |
-| Buffer                   |      ₹1,000 |
-| **Total**                | **₹45,000** |
+Essential expenses
+Required obligations
+Liquidity
+Minimum feasible goal contribution
 
-Instead of forcing the user to maintain a fixed ₹25K contribution, the system protects liquidity and allows the monthly contribution to fall.
+The contribution can fall without abandoning the overall plan.
 
-The long-term goal remains visible.
+12. 🔄 DYNAMIC CONTRIBUTION EXAMPLE
+Traditional system
+Income:       ₹45K
+Fixed SIP:    ₹25K
+Remaining:    ₹20K
 
-The route changes.
+This can create pressure during a weak month.
 
----
+DhanSanchayan
+Income:       ₹45K
+Essentials:   Protected
+Contribution: Dynamically reduced
+Buffer:       Preserved
+Goal:         Still active
 
-# 📈 14. High-Income Month
+Then in a strong month:
 
-Suppose income rises to:
+Income:       ₹90K
+Essentials:   Protected
+Contribution: Increased
+Goal:         Accelerated
+Same destination.
+Different route.
+13. 🔮 WHAT-IF SIMULATOR
 
-## ₹90,000
+Income volatility is difficult because users often don't know what happens when their income changes.
 
-DhanSanchayan can use the additional surplus to:
+DhanSanchayan lets them test scenarios.
 
-* Accelerate priority goals
-* Strengthen the emergency reserve
-* Increase planned contributions
-* Maintain a flexible buffer
+Scenario: Income falls by 30%
 
-The system does **not** turn a good month into a permanently higher fixed commitment.
+The system can show:
 
----
+New contribution capacity
+Emergency-fund impact
+Goal impact
+Timeline changes
+Recommended adjustments
+Scenario: Strong income month
 
-# 🔄 15. Variable Contribution Model
+The system can show:
 
-### Traditional approach
+Additional goal contribution
+Emergency-fund acceleration
+Surplus allocation
 
-```text
-₹25K → ₹25K → ₹25K → ₹25K → ₹25K
-```
+This allows users to understand the consequences before making a decision.
 
-### DhanSanchayan
+14. 🟢 GOAL HEALTH
 
-```text
-₹10K → ₹25K → ₹7K → ₹18K → ₹30K
-```
+Each goal can receive a simple status.
 
-### Same destination.
-
-### Flexible journey.
-
-> **DhanSanchayan changes the route, not the destination.**
-
----
-
-# 🔮 16. What-If Simulator
-
-Users can simulate changes before they happen.
-
-Inputs can include:
-
-* Monthly income
-* Unexpected expense
-* Emergency reserve
-* Dependents
-* Goal priority
-
-Example:
-
-### What if income falls by 30%?
-
-DhanSanchayan can show:
-
-```text
-Goal contribution ↓
-Essential spending → protected
-Emergency reserve → protected
-Goal timeline → potentially extended
-```
-
-The system does not hide the consequences.
-
-It shows the user exactly what changes.
-
----
-
-# 🟢 17. Goal Health
-
-Each goal can receive a status:
-
-### ON TRACK
-
-Current contribution and timeline are healthy.
-
-### AT RISK
-
-Recent income or funding behaviour is putting the target under pressure.
-
-### NEEDS ATTENTION
-
-A major adjustment may be required.
-
-Example:
-
-```text
-Child Education
 🟢 ON TRACK
 
-Vehicle
+Current trajectory is healthy.
+
 🟡 AT RISK
 
-Retirement
+Recent income or contribution changes may affect the target.
+
+🔴 NEEDS ATTENTION
+
+A significant adjustment may be required.
+
+Example:
+
+🎓 Child Education
 🟢 ON TRACK
-```
 
----
+🚗 Vehicle
+🟡 AT RISK
 
-# 🤖 18. DhanSanchayan Copilot
+🧓 Retirement
+🟢 ON TRACK
+15. 🤖 DHANSANCHAYAN COPILOT
 
-The prototype includes a conversational planning layer.
+The Copilot helps users understand the reasoning behind their plan.
 
 Users can ask:
 
-> “Why did my contribution fall this month?”
+"Why did my contribution decrease this month?"
 
-> “Can I still afford my car goal?”
+"Can I still afford my car goal?"
 
-> “What happens if I earn ₹35K next month?”
+"Why is my emergency fund target higher?"
 
-> “Why is my emergency fund target higher?”
+"What happens if I earn ₹35K next month?"
 
-> “Why is retirement a higher priority?”
+"Why is education a higher priority?"
 
-> “Which government schemes should I check?”
+"Which government schemes should I check?"
 
-The Copilot should explain the application's actual calculations rather than generating unsupported financial claims.
+The Copilot is designed to explain the reason behind a recommendation, rather than simply producing a number.
 
-For government schemes, it should point users toward official sources.
-
----
-
-# 📱 19. User Journey
-
-```text
-ONBOARD
-   ↓
-ENTER / LOAD FINANCIAL HISTORY
-   ↓
-UNDERSTAND INCOME VOLATILITY
-   ↓
-CALCULATE FINANCIAL FLOOR
-   ↓
-BUILD EMERGENCY BUFFER
-   ↓
-IDENTIFY PROTECTION GAPS
-   ↓
-DISCOVER POTENTIAL PUBLIC SUPPORT
-   ↓
-DEFINE LIFE GOALS
-   ↓
-PRIORITISE GOALS
-   ↓
-MAP GOALS TO ALLOCATION BUCKETS
-   ↓
-ADAPT MONTHLY CONTRIBUTION
-   ↓
-SIMULATE WHAT-IF SCENARIOS
-   ↓
-TRACK PROGRESS
-```
-
----
-
-# 🖥️ 20. Product Screens
-
-## Overview
-
-High-level financial health dashboard.
-
-## Income Intelligence
-
-Income history, volatility and sustainable planning income.
-
-## Financial Health
-
-Financial floor, liquidity and readiness.
-
-## Protection
-
-Emergency, health and life protection.
-
-## Goals
-
-Goal creation, prioritisation and progress.
-
-## Monthly Plan
-
-Current-month income allocation.
-
-## DhanSanchayan Access
-
-Government-backed scheme discovery.
-
-## Explore
-
-Investment-category exploration.
-
-## What-If
-
-Scenario simulation.
-
-## Copilot
-
-Conversational explanations.
-
----
-
-# 🏗️ 21. Product Architecture
-
-```text
+16. 📱 COMPLETE USER JOURNEY
+                    USER
+                     ↓
+                ONBOARDING
+                     ↓
+          INCOME + EXPENSE DATA
+                     ↓
+           INCOME INTELLIGENCE
+                     ↓
+            VOLATILITY ANALYSIS
+                     ↓
+             FINANCIAL FLOOR
+                     ↓
+            EMERGENCY FUND
+                     ↓
+             PROTECTION CHECK
+                     ↓
+        GOVERNMENT SCHEME ACCESS
+                     ↓
+                LIFE GOALS
+                     ↓
+            GOAL PRIORITISATION
+                     ↓
+        TIME-HORIZON ALLOCATION
+                     ↓
+          ADAPTIVE CONTRIBUTION
+                     ↓
+             WHAT-IF SIMULATION
+                     ↓
+              GOAL TRACKING
+17. 🏗️ PRODUCT ARCHITECTURE
                          DHANSANCHAYAN
                               │
                ┌──────────────┴──────────────┐
@@ -797,215 +521,314 @@ Conversational explanations.
                               ↓
                      FINANCIAL ENGINE
                               │
-             ┌────────────────┼────────────────┐
-             ↓                ↓                ↓
-      FINANCIAL FLOOR     PROTECTION       GOAL ENGINE
-             │             ENGINE               │
-             └────────────────┼─────────────────┘
+          ┌───────────────────┼───────────────────┐
+          ↓                   ↓                   ↓
+   FINANCIAL FLOOR       PROTECTION          GOAL ENGINE
+          │                ENGINE                 │
+          └───────────────────┼───────────────────┘
                               ↓
                      ALLOCATION ENGINE
-                              │
                               ↓
-                  MONTHLY ACTION PLAN
+                   MONTHLY ACTION PLAN
                          │         │
                          ↓         ↓
-                 GOVERNMENT      WHAT-IF
-                    ACCESS      SIMULATOR
-```
-
----
-
-# 🧠 22. Financial Engine
-
-The core engine separates the product from a generic budgeting application.
-
-### Inputs
-
-```text
+                  GOVERNMENT     WHAT-IF
+                     ACCESS     SIMULATOR
+                              │
+                              ↓
+                       COPILOT LAYER
+18. 🧮 FINANCIAL ENGINE
+Inputs
 Income history
 Expense history
 Age
 Occupation
 Dependents
 Liabilities
-Insurance
-Savings
-Goals
-```
-
-### Processing
-
-```text
-Income behaviour
-      ↓
+Existing insurance
+Existing savings
+Financial goals
+Processing
+Income Behaviour
+       ↓
 Volatility
-      ↓
-Sustainable planning income
-      ↓
-Financial floor
-      ↓
-Safe financial capacity
-      ↓
-Protection requirements
-      ↓
-Goal requirements
-      ↓
-Dynamic monthly allocation
-```
+       ↓
+Sustainable Planning Income
+       ↓
+Financial Floor
+       ↓
+Safe Financial Capacity
+       ↓
+Protection Requirements
+       ↓
+Goal Requirements
+       ↓
+Dynamic Allocation
+Output
 
-### Output
+A practical monthly action plan based on what the user can actually afford.
 
-> **“Here is what you should consider doing with this month's money.”**
+19. 👥 TARGET USERS
 
----
+DhanSanchayan is designed for:
 
-# 🧰 23. Technology Stack
+🛵 Gig Workers
 
-### Frontend
+Income varies with work availability.
 
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-* shadcn/ui
-* Lucide React
+👨‍💻 Freelancers
 
-### Visualisation
+Payments arrive according to projects and clients.
 
-* Recharts
+🌾 Farmers
 
-### Prototype data
+Income can be seasonal.
 
-* Local state
-* localStorage
-* Seeded demonstration data
+👷 Daily-Wage Workers
 
-### Deployment
+Income depends on available work.
 
-* Cloudflare Workers / `workers.dev`
+💼 Commission-Based Workers
 
----
+Income varies with performance.
 
-# 📂 24. Suggested Architecture
+🧑‍💼 Consultants
 
-```text
-src/
-│
-├── components/
-│   ├── Dashboard/
-│   ├── IncomeChart/
-│   ├── FinancialFloor/
-│   ├── ProtectionCard/
-│   ├── GoalCard/
-│   ├── AllocationWaterfall/
-│   ├── GovernmentSchemeCard/
-│   ├── WhatIfSimulator/
-│   ├── Copilot/
-│   └── ReadinessScore/
-│
-├── data/
-│   ├── demoProfile
-│   ├── governmentSchemes
-│   └── investmentCategories
-│
-├── engine/
-│   ├── incomeEngine
-│   ├── protectionEngine
-│   ├── goalEngine
-│   ├── allocationEngine
-│   └── priorityEngine
-│
-└── pages/
-    ├── Dashboard
-    ├── Income
-    ├── FinancialHealth
-    ├── Protection
-    ├── Goals
-    ├── MonthlyPlan
-    ├── GovernmentAccess
-    ├── Explore
-    ├── WhatIf
-    └── Copilot
-```
+Large payments may arrive intermittently.
 
----
+🏪 Small-Business Owners
 
-# 🎬 25. Hackathon Demo Flow
+Personal cash flow can depend on business cycles.
 
-The prototype is designed around a short judge demonstration.
+20. 🇮🇳 BUILT FOR BHARAT
 
-### Step 1 — Load Demo
+Irregular income is not an edge case.
 
-Use an irregular-income profile.
+For many households, it is the normal financial reality.
 
-```text
+DhanSanchayan is designed around:
+
+Uneven cash flow
+Seasonal income
+Variable earnings
+Family responsibilities
+Limited financial literacy
+Liquidity requirements
+Government-support awareness
+Long-term aspirations
+
+The goal is not to make every user understand complex financial terminology.
+
+The goal is:
+
+Make the next financial decision clearer.
+
+21. 🆚 WHY DHANSANCHAYAN IS DIFFERENT
+Traditional Financial Product	DhanSanchayan
+Assumes predictable income	Models income volatility
+Fixed monthly contribution	Adaptive contribution
+Product-first	Life-first
+Investment-first	Protection-first
+Generic planning	Personalised planning
+Static recommendations	Dynamic recommendations
+Limited scenario planning	What-if simulation
+Separate scheme discovery	Government Access layer
+Product selection	Complete financial plan
+The key difference
+
+Other platforms can help users choose a product. DhanSanchayan helps users decide what to do with the money they actually have.
+
+22. 🌟 CORE INNOVATION
+
+DhanSanchayan combines:
+
+VOLATILITY + PROTECTION + GOALS
+
+into one adaptive system.
+
+INCOME VOLATILITY
+       ↓
+WHAT CAN I SAFELY AFFORD?
+       ↓
+PROTECTION
+       ↓
+WHAT MUST I PROTECT FIRST?
+       ↓
+GOALS
+       ↓
+WHAT SHOULD I FUND?
+       ↓
+ADAPTIVE CONTRIBUTION
+       ↓
+WHAT SHOULD I DO THIS MONTH?
+
+This transforms financial planning from a static monthly commitment into a dynamic decision system.
+
+23. 🧪 PROTOTYPE
+
+The current prototype demonstrates:
+
+✅ Income volatility analysis
+✅ Income history visualisation
+✅ Sustainable planning income
+✅ Financial floor
+✅ Safe financial capacity
+✅ Emergency-fund planning
+✅ Health protection planning
+✅ Life protection planning
+✅ Government scheme discovery
+✅ Goal creation
+✅ Goal prioritisation
+✅ Time-horizon allocation
+✅ Adaptive monthly contribution
+✅ Low-income scenarios
+✅ High-income scenarios
+✅ What-if simulation
+✅ Goal health
+✅ Financial Copilot
+✅ Interactive dashboard
+🌐 Try the prototype
+
+https://dhansanchayan.advikaverma01.workers.dev/
+
+24. 🛠️ TECHNOLOGY STACK
+Frontend
+React
+TypeScript
+Vite
+Tailwind CSS
+shadcn/ui
+Lucide React
+Visualisation
+Recharts
+Prototype Data
+Local state
+localStorage
+Demonstration data
+Deployment
+Cloudflare Workers
+25. 🔐 PRIVACY & RESPONSIBLE DESIGN
+
+A production implementation would follow:
+
+Explicit user consent
+Data minimisation
+Secure storage
+Encryption
+User-controlled data
+Transparent calculations
+Explainable recommendations
+
+The prototype does not require real banking credentials or execute financial transactions.
+
+26. ⚠️ REGULATORY & PRODUCT CONSIDERATIONS
+
+DhanSanchayan is a prototype.
+
+It does not execute:
+
+Mutual-fund transactions
+Insurance purchases
+Bank transfers
+Loans
+Government-benefit applications
+
+A production implementation would require appropriate:
+
+Regulatory review
+Suitability frameworks
+Consent architecture
+Data-security controls
+Financial disclosures
+Government-data verification
+Financial-product partnerships
+27. 🚀 FUTURE ROADMAP
+Phase 1 — Current Prototype
+
+Adaptive financial planning and simulation.
+
+Phase 2 — Real Financial Data
+
+Secure income and expense integrations.
+
+Phase 3 — Government Data
+
+More comprehensive official scheme discovery and verification.
+
+Phase 4 — Financial Product Layer
+
+Goal-based discovery of suitable financial products through compliant partnerships.
+
+Phase 5 — Continuous Planning
+
+Automatically adapt recommendations as income, expenses and goals change.
+
+Long-Term Vision
+
+Become the financial operating system for India's irregular-income households.
+
+28. 🎬 DEMO FLOW
+
+A simple demonstration can show the complete value proposition.
+
+STEP 1 — Income History
+
+Load:
+
 ₹75K
 ₹90K
 ₹45K
 ₹60K
 ₹80K
 ₹55K
-```
+STEP 2 — Show Volatility
 
-### Step 2 — Show volatility
+DhanSanchayan identifies the irregular earning pattern.
 
-DhanSanchayan identifies that income is not stable.
-
-### Step 3 — Establish the financial floor
+STEP 3 — Establish the Financial Floor
 
 Show:
 
-```text
-Average income       ₹67.5K
-Sustainable income   ~₹60K
-Expense floor        ~₹35K
-Safe capacity        ~₹25K
-```
-
-### Step 4 — Protect
+Average Income       ₹67.5K
+Sustainable Income   ~₹60K
+Expense Floor        ~₹35K
+Safe Capacity        ~₹25K
+STEP 4 — Protection
 
 Show:
 
-* Emergency reserve
-* Health protection
-* Life protection
+Emergency reserve
+Health protection
+Life protection
+STEP 5 — Government Access
 
-### Step 5 — Discover support
+Show potentially relevant government-backed schemes.
 
-Show potentially relevant government schemes.
+STEP 6 — Goals
 
-### Step 6 — Define goals
+Add:
 
-Show:
-
-* Education
-* Marriage
-* Retirement
-* Vehicle
-
-### Step 7 — Strong month
+Education
+Marriage
+Retirement
+Vehicle
+STEP 7 — Strong Month
 
 Enter:
 
-```text
 ₹82K
-```
 
-Show increased goal contribution.
+Show contribution increasing.
 
-### Step 8 — Weak month
+STEP 8 — Weak Month
 
-Change to:
+Change income to:
 
-```text
 ₹45K
-```
 
-Show contribution decreasing automatically.
+Show contribution adapting.
 
-### Step 9 — Final reveal
-
-```text
+FINAL
 INCOME CHANGED.
 
 GOALS DIDN'T.
@@ -1013,278 +836,80 @@ GOALS DIDN'T.
 DHANSANCHAYAN
 changed the route —
 not the destination.
-```
-
----
-
-# 🏆 26. Competitive Differentiation
-
-| Traditional investment app | Budgeting app     | Insurance marketplace | Government portal      | DhanSanchayan           |
-| -------------------------- | ----------------- | --------------------- | ---------------------- | ----------------------- |
-| Product-first              | Spending-first    | Protection-first      | Scheme-first           | Life-first              |
-| Assumes predictable income | Tracks expenses   | Sells protection      | Provides information   | Models volatility       |
-| Fixed SIP mindset          | Usually reactive  | Product selection     | Eligibility discovery  | Adaptive contributions  |
-| Goals secondary            | Goals limited     | Goals secondary       | Goals absent           | Goals drive allocation  |
-| Static                     | Mostly historical | Static                | Static                 | Dynamic                 |
-| Investment-focused         | Budget-focused    | Insurance-focused     | Public-support focused | Complete financial plan |
-
-### DhanSanchayan's differentiation
-
-> **Others help users choose financial products. DhanSanchayan helps users decide what to do with the money they actually have this month.**
-
----
-
-# 🌍 27. Target Users
-
-Primary segments:
-
-### Gig workers
-
-Income varies according to number of jobs, shifts or assignments.
-
-### Freelancers
-
-Income arrives irregularly across projects and clients.
-
-### Commission-based workers
-
-Income can fluctuate dramatically between months.
-
-### Daily-wage workers
-
-Income depends on available work.
-
-### Farmers
-
-Income can arrive seasonally rather than monthly.
-
-### Small-business owners
-
-Personal cash flow can depend on business cycles.
-
-### Consultants
-
-Large payments may arrive intermittently.
-
----
-
-# 📈 28. Scalability Vision
-
-DhanSanchayan can evolve from a planning prototype into a broader financial operating system.
-
-### Phase 1
-
-Financial planning and recommendation.
-
-### Phase 2
-
-Income/expense integrations.
-
-### Phase 3
-
-Official government-benefit discovery.
-
-### Phase 4
-
-Goal-based financial-product discovery.
-
-### Phase 5
-
-Automated adaptive financial planning.
-
-### Long-term vision
-
-> **A financial operating system for India's irregular-income households.**
-
----
-
-# 🔐 29. Privacy & Security Principles
-
-A production implementation should follow:
-
-* Data minimisation
-* Explicit consent
-* Secure storage
-* Encryption
-* User-controlled data
-* Transparent calculations
-* No unnecessary collection of financial information
-
-The hackathon prototype does not require real banking credentials or financial transactions.
-
----
-
-# ⚠️ 30. Product & Regulatory Considerations
-
-DhanSanchayan is a prototype.
-
-It does **not** execute:
-
-* Mutual-fund transactions
-* Insurance purchases
-* Bank transfers
-* Loans
-* Government-benefit applications
-
-The prototype provides planning and discovery functionality.
-
-A production implementation would require appropriate:
-
-* Regulatory review
-* Suitability frameworks
-* Consent architecture
-* Data-security controls
-* Disclosure
-* Distribution architecture
-* Financial-product partnerships
-* Government-data verification
-
-The original product concept likewise identifies regulatory, suitability, disclosure, consent and data-security requirements for a production system.
-
----
-
-# ⚠️ Disclaimer
-
-> **DhanSanchayan is a financial-planning prototype created for demonstration purposes. Calculations and recommendations shown are illustrative and do not constitute personalised financial, investment, insurance, tax or legal advice. Government-scheme eligibility, financial-product suitability, policy terms and current conditions should always be verified through official sources and qualified professionals before taking action.**
-
----
-
-# 🧪 31. Prototype Status
-
-### Current prototype demonstrates:
-
-* ✅ Irregular-income analysis
-* ✅ Income volatility visualisation
-* ✅ Sustainable planning income
-* ✅ Financial floor
-* ✅ Safe financial capacity
-* ✅ Emergency-fund planning
-* ✅ Protection assessment
-* ✅ Goal planning
-* ✅ Goal prioritisation
-* ✅ Adaptive monthly allocation
-* ✅ Low-income simulation
-* ✅ High-income simulation
-* ✅ What-if analysis
-* ✅ Government-scheme discovery
-* ✅ Investment-category exploration
-* ✅ Financial Copilot concept
-* ✅ Responsive fintech dashboard
-
----
-
-# 🎯 32. Success Metric
-
-DhanSanchayan is successful if a user can answer one question after opening the application:
-
-> **“What should I do with the money I earned this month?”**
-
-without needing to become a financial expert first.
-
----
-
-# 💬 33. Product Philosophy
-
-### Income is volatile.
-
-**Model it.**
-
-### Essentials aren't.
-
-**Protect them.**
-
-### Protection comes first.
-
-**Build the safety net.**
-
-### Goals drive allocation.
-
-**Not random products.**
-
-### Contributions can adapt.
-
-**Don't force irregular earners into fixed-income assumptions.**
-
----
-
-# ❤️ 34. Why DhanSanchayan Matters
+29. ❤️ WHY IT MATTERS
 
 Financial planning is often designed around people who receive:
 
-> **the same amount of money at the same time every month.**
+₹50K
+₹50K
+₹50K
+₹50K
+₹50K
 
-Millions of people do not live that way.
+But many people live with:
 
-Their financial reality is:
+₹35K
+₹80K
+₹42K
+₹1.1L
+₹28K
+₹65K
 
-```text
-Good month
-↓
-Strong income
+Their income is irregular.
 
-Weak month
-↓
-Reduced income
+Their aspirations aren't.
 
-Next month
-↓
-Recovery
+They still want:
 
-Next season
-↓
-Large payment
-```
+🎓 Education
 
-DhanSanchayan recognises that **irregular income is not necessarily bad income**.
+🏠 A home
 
-The problem is that conventional financial products often fail to adapt to it.
+🚗 A vehicle
 
-The solution is not to ask irregular earners to behave like salaried employees.
+🛡️ Family security
 
-The solution is to build financial products around their reality.
+🧓 Retirement
 
----
+DhanSanchayan exists to make those goals work with the income people actually have.
 
-# 🚀 35. Final Product Story
+30. 🎯 THE ONE-LINE PITCH
 
-## Traditional financial planning
+DhanSanchayan is a volatility-aware financial operating system that protects essential needs, surfaces available support, and dynamically adjusts monthly contributions so irregular-income earners can keep moving toward their long-term goals.
 
-```text
-Income
-  ↓
-Fixed monthly commitment
-  ↓
-Hope income is enough
-```
+💬 THE CORE PHILOSOPHY
+Income is volatile.
 
-## DhanSanchayan
+Model it.
 
-```text
-Income
-  ↓
-Understand volatility
-  ↓
-Protect essentials
-  ↓
-Protect household
-  ↓
-Prioritise goals
-  ↓
-Adapt monthly contribution
-  ↓
-Reach the destination
-```
+Essentials aren't.
 
----
+Protect them.
 
-# 🌟 DhanSanchayan
+Protection comes first.
 
-## Income changes.
+Build the safety net.
 
-## Your financial future doesn't.
+Goals drive allocation.
 
-### We don't force irregular earners into fixed financial plans.
+Not random products.
 
-### We build plans that move with them.
+Contributions can adapt.
 
-**Earn differently. Plan normally.**
+Don't force irregular earners into fixed-income assumptions.
+
+🌟 DHANSANCHAYAN
+Income changes.
+Your financial future doesn't.
+Understand. Protect. Plan. Adapt.
+
+🌐 Live Prototype:
+https://dhansanchayan.advikaverma01.workers.dev/
+
+⚠️ DISCLAIMER
+
+DhanSanchayan is a financial-planning prototype created for demonstration purposes.
+
+All calculations and recommendations shown are illustrative and do not constitute personalised financial, investment, insurance, tax or legal advice.
+
+Government-scheme eligibility, financial-product suitability, policy terms, contribution amounts and current conditions should always be verified through official government sources, authorised providers and qualified professionals before taking action.
