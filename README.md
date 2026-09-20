@@ -9,8 +9,7 @@ Traditional financial planning often assumes a predictable monthly salary. DhanS
 ## 🌐 Live Prototype
 
 https://dhansanchayan.advikaverma01.workers.dev/
-
-![DhanSanchayan Dashboard](./assets/dashboard.png)
+<img width="1357" height="702" alt="image" src="https://github.com/user-attachments/assets/931b5cfe-7a10-45b8-8715-5b4b67bd6019" />
 
 ---
 
